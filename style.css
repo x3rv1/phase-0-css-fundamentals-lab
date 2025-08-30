@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+.centered-header {
+  text-align: center;
+}
+.centered-image {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 900px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.navigations {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.caption {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 8px;
+}
+.centered-text {
+  width: 800px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.details {
+  width: 100%;
+  overflow: hidden;
+}
+.box {
+  float: left;
+  width: 30%;
+  margin: 1%;
+  background-color: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
